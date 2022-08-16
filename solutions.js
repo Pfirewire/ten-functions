@@ -24,13 +24,7 @@
 const isTrue = input => input === true && typeof input === "boolean";
 const isFalse = input => input !== true && typeof input === "boolean";
 const not = input => !input;
-const addOne = input => {
-    if(typeof input === "boolean"){
-        return NaN;
-    } else {
-        return Number(input) + 1;
-    }
-}
+const addOne = input => typeof input === "boolean" ? NaN : Number(input) + 1;
 const isEven = input => parseInt(input) % 2 === 0;
 const isIdentical = (input1, input2) => input1 === input2;
 const isEqual = (input1, input2) => input1 == input2;
