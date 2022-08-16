@@ -21,8 +21,8 @@
  * concat
  */
 
-const isTrue = input => input === true && typeof input === "boolean";
-const isFalse = input => input !== true && typeof input === "boolean";
+const isTrue = input => input === true;
+const isFalse = input => input === false;
 const not = input => !input;
 const addOne = input => typeof input === "boolean" ? NaN : Number(input) + 1;
 const isEven = input => parseInt(input) % 2 === 0;
