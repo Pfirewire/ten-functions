@@ -33,3 +33,4 @@ const and = (input1, input2) => input1 && input2;
 const concat = (input1, input2) => input1.toString() + input2.toString();
 
 //test comment
+// testing branching in git
